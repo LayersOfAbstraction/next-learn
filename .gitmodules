@@ -1,3 +1,9 @@
 [submodule "react-portfolio"]
 	path = react-portfolio
 	url = https://github.com/LayersOfAbstraction/react-portfolio.git
+	branch = shared-styles-precompile
+
+# [submodule "maxleiter.com"]
+# 	path = maxleiter.com
+# 	url = https://github.com/MaxLeiter/maxleiter.com.git
+# 	branch = shared-styles-precompile
