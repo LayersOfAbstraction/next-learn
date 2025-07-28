@@ -3,7 +3,7 @@
 	url = https://github.com/LayersOfAbstraction/react-portfolio.git
 	branch = shared-styles-precompile
 
-# [submodule "maxleiter.com"]
-# 	path = maxleiter.com
-# 	url = https://github.com/MaxLeiter/maxleiter.com.git
-# 	branch = shared-styles-precompile
+[submodule "maxleiter.com"]
+	path = maxleiter.com
+	url = https://github.com/LayersOfAbstraction/maxleiter.com.git
+	branch = shared-styles-precompile
