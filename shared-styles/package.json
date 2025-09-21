@@ -4,6 +4,19 @@
   "main": "dist/index.css",
   "scripts": {
     "build": "webpack --config webpack.config.js --mode=production",
+    "prepare": "npm run build",
     "watch": "webpack --config webpack.config.js --watch"
+  },
+  "devDependencies": {
+    "css-loader": "^7.1.2",
+    "mini-css-extract-plugin": "^2.9.4",
+    "postcss": "^8.5.6",
+    "postcss-flexbugs-fixes": "^5.0.2",
+    "postcss-hover-media-feature": "^1.0.2",
+    "postcss-loader": "^8.2.0",
+    "postcss-nested": "^7.0.2",
+    "postcss-preset-env": "^10.3.1",
+    "webpack": "^5.101.3",
+    "webpack-cli": "^6.0.1"
   }
 }
