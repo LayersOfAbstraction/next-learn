@@ -51,9 +51,15 @@ h6 {
     font-family: Marcellus;
 }
 
-a,
+a {
+    color: var(--text-color);
+}
+
+@media (hover: hover) {
+
 a:hover {
     color: var(--text-color);
+}
 }
 
 p {
@@ -65,9 +71,15 @@ p {
     overflow: hidden;
 }
 
-.text_2,
+.text_2 {
+    color: var(--text-color-2);
+}
+
+@media (hover: hover) {
+
 .text_2:hover {
     color: var(--text-color-2);
+}
 }
 
 code {
