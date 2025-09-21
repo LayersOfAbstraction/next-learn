@@ -1,0 +1,9 @@
+{
+  "name": "layers-shared-styles",
+  "version": "1.0.0",
+  "main": "dist/index.css",
+  "scripts": {
+    "build": "webpack --config webpack.config.js --mode=production",
+    "watch": "webpack --config webpack.config.js --watch"
+  }
+}
